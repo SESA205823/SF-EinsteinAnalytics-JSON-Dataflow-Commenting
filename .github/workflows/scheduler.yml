@@ -1,7 +1,6 @@
-name: Create our Weekly Meeting notes issue
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: "0/2 * * * *"
 jobs:
   run_schedule:
     runs-on: ubuntu-latest
